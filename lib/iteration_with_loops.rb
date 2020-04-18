@@ -9,9 +9,9 @@ def join_nested_strings(src)
       if src[r_i][e_i] == src[r_i][e_i].to_s
         returnstring = returnstring + " " + src[r_i][e_i]
       end
-    e_i += 1  
+    e_i += 1
     end
-  r_i += 1  
+  r_i += 1
   end
   returnstring
 end
